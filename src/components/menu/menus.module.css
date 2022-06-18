@@ -1,0 +1,25 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    margin-left: 27%;
+    margin-bottom: 50px;
+
+}
+.photo{
+
+    width: 300px;
+    height: 200px;
+}
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info{
+    display: block;
+    justify-content: center;
+    padding: 20px;
+}
+
+.prices{
+    color: orange;
+}

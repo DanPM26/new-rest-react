@@ -1,0 +1,31 @@
+.titulo{
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.formulario{
+    align-items: center;
+    
+}
+
+.cuadro{
+    display: flex;
+   justify-content: center;
+}
+
+.form{
+    margin-top: 10px;
+    padding-top: 5px;
+    width: 400px;
+}
+
+.insideform{
+    margin:50px;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 200px;
+}
+
+.text{
+    text-align: center;
+}

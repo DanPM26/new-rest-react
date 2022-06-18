@@ -1,0 +1,12 @@
+.hola{
+    background-color: rgb(199, 187, 187);
+    margin: 0px; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-around; 
+ }
+ 
+ .redes:hover{
+    border-radius: 50px;
+    background-color: rgb(255, 255, 248);
+ }
