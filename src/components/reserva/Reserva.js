@@ -1,5 +1,4 @@
 import React,{useEffect,useState} from 'react';
-import env from "react-dotenv";
 import {onSnapshot,collection,addDoc,deleteDoc,doc} from 'firebase/firestore';
 import { db } from '../../firebase';
 import  Card from 'react-bootstrap/Card';
@@ -8,6 +7,8 @@ import Alert from 'react-bootstrap/Alert';
 import styles from './reserva.module.css'
 
 const Reserva = () => {
+
+
 
   const [reserva,setReserva] = useState([]);
   const [form,setForm] = useState({});
@@ -49,7 +50,7 @@ const Reserva = () => {
 
   useEffect(()=>{
     getData()
-    console.log(env)
+ 
   
   },[])
   return (
